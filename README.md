@@ -18,8 +18,8 @@
 
 In a 2016 [TED interview][ted] (14:10) Linus Torvalds speaks about what he
 considers *good taste* in coding. As an example, he presents two
-implementations of item removal in singly linked lists (reproduced below).  In
-order to remove the first item from a list, one of the implementations requires
+implementations of item removal in singly linked lists (reproduced below).  If the 
+item that is to be removed happens to be the first item, one of the implementations requires
 a special case, the other one does not.  Linus, obviously, prefers the latter.
 
 His comment is:
